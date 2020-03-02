@@ -1,3 +1,8 @@
+/// @description Load an obj model file from a file
+/// @param {string} filename The name of the .obj file you want to load
+/// @param {string} mtlname The .mtl (material) file you want to load
+/// @return The index of the vertex buffer (model) created from the file
+
 // Open the file
 var filename = argument0;
 var mtlname = argument1;

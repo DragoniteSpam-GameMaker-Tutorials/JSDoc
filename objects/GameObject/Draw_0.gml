@@ -1,12 +1,15 @@
+/// @desc Draw the object's model
 draw_set_color(c_white);
 
 var tsine = dsin(current_time / 2);
 var t = current_time / 50;
 
+// create the transform matrices
 var matrix_translate =  matrix_build(x, y, z,       0, 0, 0,        1, 1, 1);
 var matrix_rotate =     matrix_build(0, 0, 0,       0, t, 0,        1, 1, 1);
 var matrix_scale =      matrix_build(0, 0, 0,       0, 0, 0,        1, tsine, 1);
 
+// apply the transform matrices
 var matrix_sr =         matrix_multiply(matrix_scale, matrix_rotate);
 var matrix_final =      matrix_multiply(matrix_sr, matrix_translate);
 matrix_set(matrix_world, matrix_final);

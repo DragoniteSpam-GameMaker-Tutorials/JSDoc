@@ -1,3 +1,7 @@
+/// @desc Load a vertex buffer (model) from a Game Maker model file
+/// @param filename The name of the file to load
+/// @return The index of the vertex buffer created from the file
+
 var file = argument0;
 
 // mtl is ignored in this case, to keep things simple
