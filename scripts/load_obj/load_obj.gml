@@ -1,6 +1,3 @@
-/// @param file_obj
-/// @param file_mtl
-
 // Open the file
 var filename = argument0;
 var mtlname = argument1;

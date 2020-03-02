@@ -1,15 +1,3 @@
-/// @param	buffer
-/// @param	x
-/// @param	y
-/// @param	z
-/// @param	nx
-///	@param	ny
-///	@param	nz
-///	@param	xtex
-///	@param	ytex
-///	@param	color
-///	@param	alpha
-
 var vbuffer = argument0;
 var xx = argument1;
 var yy = argument2;

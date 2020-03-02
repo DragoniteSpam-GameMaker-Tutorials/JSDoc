@@ -1,5 +1,3 @@
-/// @param file
-
 var file = argument0;
 
 // mtl is ignored in this case, to keep things simple
