@@ -4,4 +4,5 @@ Your future self will thank you!
 
 Video tutorial:
 
-(coming soon)
+
+[![YouTube](https://i.ytimg.com/vi/qywxlAYSsCs/hqdefault.jpg)](https://www.youtube.com/watch?v=qywxlAYSsCs)
